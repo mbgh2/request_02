@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
    console.log('Server request');
    console.log(req.url, req.method);
 
-   res.setHeader('Content-Type', 'text/html');
+   res.setHeader('Content-Type', 'text/js');
 
    res.write('<h1>Hello, brouser!</h1>');
    res.end();
