@@ -12,6 +12,6 @@ const server = http.createServer((req, res) => {
    res.end();
 });
 
-server.listen(PORT, 'https://mbgh2.github.io/request_02/', (error) => {
+server.listen(PORT, 'https://mbgh2.github.io/request_02/app.js/', (error) => {
    error ? console.log(error) : console.log(`listening port ${PORT}`);
 })
